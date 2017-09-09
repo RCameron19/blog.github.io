@@ -1,0 +1,55 @@
+img {
+  border-radius: 300%;
+  height: 200px;
+  width:: 200px;
+  align-content: center;
+  box-shadow: 1px 1.5px 0px;
+
+
+
+}
+.queen {
+  padding-top: 45px;
+
+}
+
+header {
+  height: 50vh;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Users/rebeccacameron/_Coding/blog.github.io/img1.jpg");
+  background-size: cover;
+}
+ul {
+  padding: 0px;
+  text-align: center;
+  font-size: 25px;
+  background: #2f3038;
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+
+#blog-name {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  letter-spacing: 2px;
+}
+
+a {
+color: #f2a4b1;
+font-family: 'Raleway', sans-serif;
+text-decoration: none;
+
+
+}
+article {
+  max-width: 500px
+    padding: 20px;
+    margin: 0 auto;
+  }
+  @media (max-width: 500px) {
+    body {
+      background: #3d3f4b;
+    }
+  }
