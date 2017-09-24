@@ -1,55 +1,148 @@
 img {
-  border-radius: 300%;
-  height: 200px;
-  width:: 200px;
-  align-content: center;
+  height: 20vh;
+  width:: 100px;
+  align: left;
   box-shadow: 1px 1.5px 0px;
-
-
-
+  margin: 25px,25px,25px,25px;
 }
+
 .queen {
   padding-top: 45px;
+  margin-right: 1000px;
+
 
 }
 
 header {
-  height: 50vh;
+  height: 30vh;
   text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Users/rebeccacameron/_Coding/blog.github.io/img1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Users/rebeccacameron/_Coding/blog.github.io/smoke2.jpg");
   background-size: cover;
+
 }
+
 ul {
+  font-family: 'Crimson Text', serif;
   padding: 0px;
   text-align: center;
   font-size: 25px;
-  background: #2f3038;
+  background: #161616;
+  margin-top: -20px
 }
+
 li {
   display: inline;
   padding: 0px 10px 0px 10px;
 }
 
-#blog-name {
-  font-family: 'Playfair Display', serif;
-  color: white;
-  letter-spacing: 2px;
-}
 
 a {
-color: #f2a4b1;
-font-family: 'Raleway', sans-serif;
-text-decoration: none;
+  color: #7B7B7B;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
 
 
 }
-article {
-  max-width: 500px
-    padding: 20px;
-    margin: 0 auto;
-  }
-  @media (max-width: 500px) {
-    body {
-      background: #3d3f4b;
-    }
-  }
+#fire {
+  font-size: 35px;
+  background: -webkit-linear-gradient(#B01D1A, #C2460B, #D86F0F,#EE9D0C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 2px;
+  margin-top: -110px;
+
+
+
+}
+#name {
+  font-size: 35px;
+  background: -webkit-linear-gradient(#343436, #656061, #7B7B7B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 2px;
+
+
+}
+
+h1 {
+  margin-top: -110px;
+  margin-right: 450px;
+}
+
+
+p {
+  margin-top: -25px;
+  font-size: 75px;
+  background-color: #161616;
+  color: #B8C3C6;
+  height: 600px;
+}
+
+.me {
+  margin-top: -550px;
+  font-size: 75px;
+  color: #B8C3C6;
+  text-align: center;
+  font-family: 'Passion One', cursive;
+
+}
+
+body { 
+  background-color: #161616;
+}
+
+
+
+
+body::-webkit-scrollbar {
+    width: .5em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color:#B01D1A;
+  outline: 1px solid slategrey;
+}
+
+.about { 
+  color: rgb(255, 251, 9);
+
+}
+.creative {
+  text-align: right;
+  color: #EE9D0C;
+
+}
+.dev { 
+  color: #D86F0F;
+  
+}
+.blogger { 
+  text-align: right;
+  color: #C2460B;
+
+}
+.model {
+  color: #EB410E
+
+}
+.wife { 
+  text-align: right;
+  color: #C0280D;
+
+}
+.contact { 
+  color: #B01D1A;
+
+}
+
+.contact
+{
+        opacity:0.5;
+}
+.contact:hover {
+        opacity:1;
+}
